@@ -1,0 +1,11 @@
+.one 
+{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    font-size: 30px;
+    padding: 50px;
+    border: 20px solid black;
+    margin: 50px;
+    
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>forms</title>
+</head>
+<body>
+
+    <form>
+
+        <input type="color">
+
+        <label for="name">Enter Name</label>
+
+        <input id="name" type="text" placeholder="Enter Name">
+        <br><br>
+
+        <input type="text" required pattern="^[789]\d{9}$" placeholder="Enter Contact">
+        <br><br>
+
+        <input type="email" readonly placeholder="Enter Email" >
+        <br><br>
+
+        <input type="password" placeholder="Enter Password" required minlength="5" maxlength="8">
+        <br><br>
+
+
+        <input type="date">
+        <br><br>
+
+        Male
+        <input type="radio" name="gender">
+
+        Female
+        <input type="radio" name="gender">
+
+        <br><br>
+
+        I agree to the conditions <input type="checkbox">
+        <br><br>
+
+        <textarea cols="30" rows="5" placeholder="Address"></textarea>
+        <br><br>
+
+        <input type="number" min="10" max="30" placeholder="Enter Some Number">
+        <br><br>
+
+        <select>
+
+                <option>Select City</option>
+                <option>Mumbai</option>
+                <option>Pune</option>
+                <option>Hyderabad</option>
+
+        </select>
+
+
+
+
+
+        <br><br>
+
+        <button type="submit">Regsiter</button>
+        <button type="reset">Clear Form</button>
+        <button type="button">Useless</button>
+
+
+
+    </form>
+
+    
+</body>
+</html>

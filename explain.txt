@@ -1,0 +1,16 @@
+CSS - Cascading Style Sheet
+
+property:value;
+
+color : red ;
+
+height : 200px;
+background-color:green;
+
+
+inline css way 
+internal css way
+external css  
+
+kahoot.it
+

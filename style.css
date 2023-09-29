@@ -1,0 +1,43 @@
+
+body 
+{
+    background-color: skyblue;
+}
+
+
+.ans 
+{
+    color: purple;
+}
+
+.para1
+{
+    color: blue;
+}
+
+
+
+.para2 
+{
+    color:red;
+}
+
+p
+{
+  color: green;  
+  /* font-size: 30px; */
+} 
+
+#one
+{
+    color: yellow;
+    background-color: gray;
+} 
+
+
+pre 
+{
+    color: green;
+    background-color: gray;
+    font-family: segoe ui;
+}
