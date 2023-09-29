@@ -7,7 +7,7 @@ Welcome to the "HTML & CSS Zero to Hero in 5 Days" course by LetsUpgrade! In thi
 - **Course Provider:** LetsUpgrade
 - **Course Duration:** 5 Days
 - **Enrol for the course here:** [HTML & CSS Zero to Hero Course](https://luc.to/htmlsep23onelinkd1)
-- **All in one Doc URL:** [HTML & CSS Zero to Hero Course](https://letsupgrade.notion.site/HTML-CSS-Zero-to-Hero-in-5-Days-b6005a2cf08d49dca82d5c8be37b2b58?pvs=4)
+- **All in one Doc URL:** [HTML & CSS Zero All in One Doc](https://letsupgrade.notion.site/HTML-CSS-Zero-to-Hero-in-5-Days-b6005a2cf08d49dca82d5c8be37b2b58?pvs=4)
 
 ## Get Started
 
