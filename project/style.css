@@ -15,8 +15,9 @@
     background-color: #d6d3d3;
     height: 70px;
     display: flex;
-    padding-left: 5%;
-    padding-right: 5%;
+    /* padding-left: 10%;
+    padding-right: 10%; */
+    padding: 0px 10%;
     justify-content: space-between;
      
     
@@ -62,11 +63,9 @@
     width: 100%;
     height: 700px;
     background-color: #d6d3d3;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
     padding-top: 30px;
-   
-    
     display: flex;
     align-items: center;
 
@@ -143,14 +142,14 @@
 .services 
 {
     width: 100%;
-    padding: 30px 5%;
+    padding: 30px 10%;
     /* background-color: red; */
 }
 
 .section-title
 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 200;
 }
 
@@ -203,4 +202,160 @@
     border: none;
     border-radius: 10px;
 
+}
+
+/* achievements */
+
+.achievements
+{
+    padding:30px 10%;
+    background-color: #ededed;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.achievement
+{
+    width: 18%;
+    padding: 50px;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.achievements-child 
+{
+    column-gap: 2.5%;
+}
+
+.number
+{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.tag
+{
+    font-size: 18px;
+}
+
+
+/* quote css  */
+
+.quote 
+{
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-image: url('https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+}
+
+.overlay 
+{
+    width: 100%;
+    height: 100%;
+    padding: 30px 10%;
+    background-color: rgba(0, 0, 0, .7);
+    display: flex;
+    align-items: center;
+}
+
+.quote-area
+{
+    width: 100%;
+    padding: 30px 0px;
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inp-email
+{
+    width: 70%;
+    height: 60px;
+    border: 2px solid white;
+    font-size: 18px;
+    text-indent: 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    outline: none;
+}
+
+::placeholder
+{
+    color: white;
+}
+
+
+/* clients css  */
+
+.clients 
+{
+    width:100%;
+    padding: 30px 10%;
+    /* background-color: red; */
+}
+
+.client-section-child
+{
+    /* background-color: white; */
+    column-gap: 5%;
+    flex-wrap: wrap;
+    align-items: center;
+    row-gap: 30px;
+}
+
+.client-img
+{
+    width: 8%;
+    filter: grayscale(100%);
+    transition: .3s;
+    cursor: pointer;
+    
+}
+
+.client-img:hover 
+{
+    filter: grayscale(0);
+    transform: scale(1.2);
+}
+
+/* footer css  */
+
+
+.footer  
+{
+    width: 100%;
+    padding: 30px 10%;
+   background-color: #4a4a4a;
+   font-family: 'Montserrat', sans-serif;
+   color: white;
+}
+
+
+
+.footer-child
+{
+    width: 22%;
+    padding: 20px 50px;
+    /* background-color: gray; */
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.footer-list
+{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 7px;
+}
+
+.map 
+{
+    width: 46%;
+    padding: 0;
 }
